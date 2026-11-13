@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1254 1254">
+  <defs>
+    <linearGradient id="fold" x1="354" y1="281" x2="782" y2="463" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4FF82"/>
+      <stop offset=".52" stop-color="#DCFB71"/>
+      <stop offset="1" stop-color="#E9FF98"/>
+    </linearGradient>
+    <clipPath id="outer"><path d="M345 269H636C839 269 980 411 980 627C980 844 838 985 636 985H345Q293 985 293 932V323Q293 269 345 269Z"/></clipPath>
+  </defs>
+  <g transform="translate(16 0)" clip-path="url(#outer)"><path d="M345 269H636C770 269 872 325 938 424C886 361 835 334 777 352L376 500C326 520 293 539 293 562V323Q293 269 345 269Z" fill="url(#fold)"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1254 1254">
+  <defs>
+    <linearGradient id="body" x1="355" y1="500" x2="956" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C2DF38"/>
+      <stop offset=".28" stop-color="#D8F663"/>
+      <stop offset=".69" stop-color="#DEFF71"/>
+      <stop offset="1" stop-color="#C6ED46"/>
+    </linearGradient>
+    <linearGradient id="underfold" x1="600" y1="395" x2="655" y2="539" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#718C14" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#A6C42C" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="letter">
+      <path fill-rule="evenodd" d="M345 269H636C839 269 980 411 980 627C980 844 838 985 636 985H345Q293 985 293 932V323Q293 269 345 269ZM480 462V792H625C719 792 780 722 780 627S719 462 625 462Z"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(16 0)" clip-path="url(#letter)">
+    <path fill="url(#body)" fill-rule="evenodd" d="M345 269H636C839 269 980 411 980 627C980 844 838 985 636 985H345Q293 985 293 932V323Q293 269 345 269ZM480 462V792H625C719 792 780 722 780 627S719 462 625 462Z"/>
+    <path d="M293 558C293 534 326 516 381 493L773 354C837 333 900 367 946 440L982 540L293 683Z" fill="url(#underfold)"/>
+  </g>
+</svg>

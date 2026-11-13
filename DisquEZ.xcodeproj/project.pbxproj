@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15C00000000000000000601 /* WorkspaceTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000600; };
+		D15C00000000000000000591 /* CompressionIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000590; };
+		D15C00000000000000000531 /* DisquEZ.storekit in Resources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000530; };
+		D15C00000000000000000581 /* ProfessionalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000580; };
+		D15C00000000000000000571 /* SpacePlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000570; };
+		D15C00000000000000000561 /* SpacePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000560; };
+		D15C00000000000000000551 /* SpacePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000550; };
+		D15C00000000000000000541 /* SpacePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000540; };
+		D15C00000000000000000521 /* ProfessionalVideoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000520; };
+		D15C00000000000000000511 /* ProfessionalPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000510; };
+		D15C00000000000000000501 /* ProfessionalVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000500; };
+		D15C00000000000000000491 /* ArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000490; };
+		D15C00000000000000000481 /* PDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000480; };
+		D15C00000000000000000471 /* SyntheticPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000470; };
+		D15C00000000000000000461 /* PDFViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000460; };
+		D15C00000000000000000451 /* PDFCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000450; };
+		D15C00000000000000000441 /* ArchiveViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000440; };
+		D15C00000000000000000431 /* ArchiveSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000430; };
+		D15C00000000000000000421 /* ArchiveLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000420; };
+		D15C00000000000000000411 /* ArchiveIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000410; };
+		D15C00000000000000000401 /* ArchiveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000400; };
+		D15C000000000000000003A1 = {isa = PBXBuildFile; fileRef = D15C000000000000000003A0; };
+		D15C00000000000000000394 = {isa = PBXBuildFile; fileRef = D15C00000000000000000384; };
+		D15C0000000000000000393 = {isa = PBXBuildFile; fileRef = D15C0000000000000000383; };
+		D15C0000000000000000392 = {isa = PBXBuildFile; fileRef = D15C0000000000000000382; };
+		D15C0000000000000000391 = {isa = PBXBuildFile; fileRef = D15C0000000000000000381; };
+		D15C0000000000000000390 = {isa = PBXBuildFile; fileRef = D15C0000000000000000380; };
+		D15C0000000000000000371 = {isa = PBXBuildFile; fileRef = D15C0000000000000000361; };
+		D15C0000000000000000370 = {isa = PBXBuildFile; fileRef = D15C0000000000000000360; };
+		D15C000000000000000000C8 /* DisquEZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000064 /* DisquEZApp.swift */; };
+		D15C000000000000000000C9 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000065 /* Storage.swift */; };
+		D15C000000000000000000CA /* VideoCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000066 /* VideoCompression.swift */; };
+		D15C000000000000000000CB /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000067 /* PhotoLibrary.swift */; };
+		D15C000000000000000000CC /* CompressionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000068 /* CompressionSession.swift */; };
+		D15C000000000000000000CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000069 /* HomeView.swift */; };
+		D15C000000000000000000CE /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000006A /* VideoPicker.swift */; };
+		D15C000000000000000000CF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000006B /* PrivacyInfo.xcprivacy */; };
+		D15C000000000000000000D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000006C /* Assets.xcassets */; };
+		D15C000000000000000000D1 /* DisquEZ.icon in Resources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000006E /* DisquEZ.icon */; };
+		D15C0000000000000000014A /* SyntheticVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000140 /* SyntheticVideo.swift */; };
+		D15C0000000000000000014B /* VideoCompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000141 /* VideoCompressionTests.swift */; };
+		D15C000000000000000001AE /* CompressionFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C000000000000000001A4 /* CompressionFlowTests.swift */; };
+		D15C000000000000000001FE /* QueueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C000000000000000001F4 /* QueueStore.swift */; };
+		D15C000000000000000001FF /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C000000000000000001F5 /* Components.swift */; };
+		D15C00000000000000000200 /* CompressionJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C000000000000000001F6 /* CompressionJobView.swift */; };
+		D15C00000000000000000259 /* QueueRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C00000000000000000258 /* QueueRecoveryTests.swift */; };
+		D15C0000000000000000025B /* VideoCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000025A /* VideoCatalog.swift */; };
+		D15C0000000000000000025D /* VideoCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000025C /* VideoCatalogTests.swift */; };
+		D15C0000000000000000320 /* MediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000300 /* MediaLibrary.swift */; };
+		D15C0000000000000000321 /* PhotoCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000301 /* PhotoCompression.swift */; };
+		D15C0000000000000000322 /* PhotoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000302 /* PhotoSession.swift */; };
+		D15C0000000000000000323 /* MediaOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000303 /* MediaOrganizer.swift */; };
+		D15C0000000000000000324 /* PhotoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000304 /* PhotoViews.swift */; };
+		D15C0000000000000000325 /* OrganizerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000305 /* OrganizerViews.swift */; };
+		D15C0000000000000000350 /* SyntheticPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000340 /* SyntheticPhoto.swift */; };
+		D15C0000000000000000351 /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C0000000000000000341 /* PhotoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D15C00000000000000000134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15C00000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15C00000000000000000005;
+			remoteInfo = DisquEZ;
+		};
+		D15C00000000000000000198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15C00000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15C00000000000000000005;
+			remoteInfo = DisquEZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D15C00000000000000000600 /* WorkspaceTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceTasks.swift; sourceTree = "<group>"; };
+		D15C00000000000000000590 /* CompressionIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionIntake.swift; sourceTree = "<group>"; };
+		D15C00000000000000000580 /* ProfessionalVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalVideoTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000570 /* SpacePlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePlanTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000560 /* SpacePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePlanView.swift; sourceTree = "<group>"; };
+		D15C00000000000000000550 /* SpacePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePlanner.swift; sourceTree = "<group>"; };
+		D15C00000000000000000540 /* SpacePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePlan.swift; sourceTree = "<group>"; };
+		D15C00000000000000000530 /* DisquEZ.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = DisquEZ.storekit; sourceTree = "<group>"; };
+		D15C00000000000000000520 /* ProfessionalVideoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalVideoViews.swift; sourceTree = "<group>"; };
+		D15C00000000000000000510 /* ProfessionalPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalPurchase.swift; sourceTree = "<group>"; };
+		D15C00000000000000000500 /* ProfessionalVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalVideo.swift; sourceTree = "<group>"; };
+		D15C00000000000000000490 /* ArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000480 /* PDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000470 /* SyntheticPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntheticPDF.swift; sourceTree = "<group>"; };
+		D15C00000000000000000460 /* PDFViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViews.swift; sourceTree = "<group>"; };
+		D15C00000000000000000450 /* PDFCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCompression.swift; sourceTree = "<group>"; };
+		D15C00000000000000000440 /* ArchiveViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViews.swift; sourceTree = "<group>"; };
+		D15C00000000000000000430 /* ArchiveSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSession.swift; sourceTree = "<group>"; };
+		D15C00000000000000000420 /* ArchiveLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveLibrary.swift; sourceTree = "<group>"; };
+		D15C00000000000000000410 /* ArchiveIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveIO.swift; sourceTree = "<group>"; };
+		D15C00000000000000000400 /* ArchiveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveStore.swift; sourceTree = "<group>"; };
+		D15C000000000000000003A0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000384 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExports.swift; sourceTree = "<group>"; };
+		D15C0000000000000000383 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViews.swift; sourceTree = "<group>"; };
+		D15C0000000000000000382 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSession.swift; sourceTree = "<group>"; };
+		D15C0000000000000000381 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileJobs.swift; sourceTree = "<group>"; };
+		D15C0000000000000000380 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccess.swift; sourceTree = "<group>"; };
+		D15C0000000000000000361 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectVideoDeletion.swift; sourceTree = "<group>"; };
+		D15C0000000000000000360 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBatch.swift; sourceTree = "<group>"; };
+		D15C00000000000000000006 /* DisquEZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisquEZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15C00000000000000000064 /* DisquEZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisquEZApp.swift; sourceTree = "<group>"; };
+		D15C00000000000000000065 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		D15C00000000000000000066 /* VideoCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompression.swift; sourceTree = "<group>"; };
+		D15C00000000000000000067 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		D15C00000000000000000068 /* CompressionSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionSession.swift; sourceTree = "<group>"; };
+		D15C00000000000000000069 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D15C0000000000000000006A /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		D15C0000000000000000006B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D15C0000000000000000006C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15C0000000000000000006D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15C0000000000000000006E /* DisquEZ.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = DisquEZ.icon; sourceTree = "<group>"; };
+		D15C0000000000000000012E /* DisquEZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisquEZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15C00000000000000000140 /* SyntheticVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntheticVideo.swift; sourceTree = "<group>"; };
+		D15C00000000000000000141 /* VideoCompressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompressionTests.swift; sourceTree = "<group>"; };
+		D15C00000000000000000192 /* DisquEZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisquEZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15C000000000000000001A4 /* CompressionFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionFlowTests.swift; sourceTree = "<group>"; };
+		D15C000000000000000001F4 /* QueueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStore.swift; sourceTree = "<group>"; };
+		D15C000000000000000001F5 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		D15C000000000000000001F6 /* CompressionJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionJobView.swift; sourceTree = "<group>"; };
+		D15C00000000000000000258 /* QueueRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRecoveryTests.swift; sourceTree = "<group>"; };
+		D15C0000000000000000025A /* VideoCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCatalog.swift; sourceTree = "<group>"; };
+		D15C0000000000000000025C /* VideoCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCatalogTests.swift; sourceTree = "<group>"; };
+		D15C0000000000000000300 /* MediaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibrary.swift; sourceTree = "<group>"; };
+		D15C0000000000000000301 /* PhotoCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCompression.swift; sourceTree = "<group>"; };
+		D15C0000000000000000302 /* PhotoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSession.swift; sourceTree = "<group>"; };
+		D15C0000000000000000303 /* MediaOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaOrganizer.swift; sourceTree = "<group>"; };
+		D15C0000000000000000304 /* PhotoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViews.swift; sourceTree = "<group>"; };
+		D15C0000000000000000305 /* OrganizerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerViews.swift; sourceTree = "<group>"; };
+		D15C0000000000000000340 /* SyntheticPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntheticPhoto.swift; sourceTree = "<group>"; };
+		D15C0000000000000000341 /* PhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D15C00000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15C00000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				D15C00000000000000000003 /* DisquEZ */,
+				D15C00000000000000000530 /* DisquEZ.storekit */,
+				D15C00000000000000000004 /* Products */,
+				D15C0000000000000000012D /* DisquEZTests */,
+				D15C00000000000000000191 /* DisquEZUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		D15C00000000000000000003 /* DisquEZ */ = {
+			isa = PBXGroup;
+			children = (
+				D15C0000000000000000305 /* OrganizerViews.swift */,
+				D15C00000000000000000400 /* ArchiveStore.swift */,
+				D15C00000000000000000410 /* ArchiveIO.swift */,
+				D15C00000000000000000420 /* ArchiveLibrary.swift */,
+				D15C00000000000000000430 /* ArchiveSession.swift */,
+				D15C00000000000000000440 /* ArchiveViews.swift */,
+				D15C00000000000000000450 /* PDFCompression.swift */,
+				D15C00000000000000000500 /* ProfessionalVideo.swift */,
+				D15C00000000000000000510 /* ProfessionalPurchase.swift */,
+				D15C00000000000000000540 /* SpacePlan.swift */,
+				D15C00000000000000000550 /* SpacePlanner.swift */,
+				D15C00000000000000000590 /* CompressionIntake.swift */,
+				D15C00000000000000000600 /* WorkspaceTasks.swift */,
+				D15C00000000000000000560 /* SpacePlanView.swift */,
+				D15C00000000000000000520 /* ProfessionalVideoViews.swift */,
+				D15C00000000000000000460 /* PDFViews.swift */,
+				D15C0000000000000000304 /* PhotoViews.swift */,
+				D15C00000000000000000384,
+				D15C0000000000000000383,
+				D15C0000000000000000382,
+				D15C0000000000000000381,
+				D15C0000000000000000380,
+				D15C0000000000000000361,
+				D15C0000000000000000360,
+				D15C0000000000000000303 /* MediaOrganizer.swift */,
+				D15C0000000000000000302 /* PhotoSession.swift */,
+				D15C0000000000000000301 /* PhotoCompression.swift */,
+				D15C0000000000000000300 /* MediaLibrary.swift */,
+				D15C0000000000000000025A /* VideoCatalog.swift */,
+				D15C000000000000000001F4 /* QueueStore.swift */,
+				D15C000000000000000001F5 /* Components.swift */,
+				D15C000000000000000001F6 /* CompressionJobView.swift */,
+				D15C00000000000000000064 /* DisquEZApp.swift */,
+				D15C00000000000000000065 /* Storage.swift */,
+				D15C00000000000000000066 /* VideoCompression.swift */,
+				D15C00000000000000000067 /* PhotoLibrary.swift */,
+				D15C00000000000000000068 /* CompressionSession.swift */,
+				D15C00000000000000000069 /* HomeView.swift */,
+				D15C0000000000000000006A /* VideoPicker.swift */,
+				D15C0000000000000000006B /* PrivacyInfo.xcprivacy */,
+				D15C0000000000000000006C /* Assets.xcassets */,
+				D15C0000000000000000006E /* DisquEZ.icon */,
+				D15C0000000000000000006D /* Info.plist */,
+			);
+			path = DisquEZ;
+			sourceTree = "<group>";
+		};
+		D15C00000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D15C00000000000000000006 /* DisquEZ.app */,
+				D15C0000000000000000012E /* DisquEZTests.xctest */,
+				D15C00000000000000000192 /* DisquEZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15C0000000000000000012D /* DisquEZTests */ = {
+			isa = PBXGroup;
+			children = (
+				D15C00000000000000000470 /* SyntheticPDF.swift */,
+				D15C00000000000000000480 /* PDFTests.swift */,
+				D15C00000000000000000570 /* SpacePlanTests.swift */,
+				D15C00000000000000000580 /* ProfessionalVideoTests.swift */,
+				D15C00000000000000000490 /* ArchiveTests.swift */,
+				D15C0000000000000000341 /* PhotoTests.swift */,
+				D15C000000000000000003A0,
+				D15C0000000000000000340 /* SyntheticPhoto.swift */,
+				D15C0000000000000000025C /* VideoCatalogTests.swift */,
+				D15C00000000000000000258 /* QueueRecoveryTests.swift */,
+				D15C00000000000000000140 /* SyntheticVideo.swift */,
+				D15C00000000000000000141 /* VideoCompressionTests.swift */,
+			);
+			path = DisquEZTests;
+			sourceTree = "<group>";
+		};
+		D15C00000000000000000191 /* DisquEZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D15C000000000000000001A4 /* CompressionFlowTests.swift */,
+			);
+			path = DisquEZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D15C00000000000000000005 /* DisquEZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15C0000000000000000000B /* Build configuration list for PBXNativeTarget "DisquEZ" */;
+			buildPhases = (
+				D15C00000000000000000007 /* Sources */,
+				D15C00000000000000000009 /* Frameworks */,
+				D15C00000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisquEZ;
+			productName = DisquEZ;
+			productReference = D15C00000000000000000006 /* DisquEZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D15C0000000000000000012C /* DisquEZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15C00000000000000000130 /* Build configuration list for PBXNativeTarget "DisquEZTests" */;
+			buildPhases = (
+				D15C0000000000000000012F /* Sources */,
+				D15C00000000000000000532 /* Test Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15C00000000000000000133 /* PBXTargetDependency */,
+			);
+			name = DisquEZTests;
+			productName = DisquEZTests;
+			productReference = D15C0000000000000000012E /* DisquEZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D15C00000000000000000190 /* DisquEZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15C00000000000000000194 /* Build configuration list for PBXNativeTarget "DisquEZUITests" */;
+			buildPhases = (
+				D15C00000000000000000193 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15C00000000000000000197 /* PBXTargetDependency */,
+			);
+			name = DisquEZUITests;
+			productName = DisquEZUITests;
+			productReference = D15C00000000000000000192 /* DisquEZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D15C00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = D15C0000000000000000000A /* Build configuration list for PBXProject "DisquEZ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = D15C00000000000000000002;
+			productRefGroup = D15C00000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D15C00000000000000000005 /* DisquEZ */,
+				D15C0000000000000000012C /* DisquEZTests */,
+				D15C00000000000000000190 /* DisquEZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D15C00000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C000000000000000000CF /* PrivacyInfo.xcprivacy in Resources */,
+				D15C000000000000000000D0 /* Assets.xcassets in Resources */,
+				D15C000000000000000000D1 /* DisquEZ.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15C00000000000000000532 /* Test Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (D15C00000000000000000531 /* DisquEZ.storekit in Resources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D15C00000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C0000000000000000325 /* OrganizerViews.swift in Sources */,
+				D15C00000000000000000401 /* ArchiveStore.swift in Sources */,
+				D15C00000000000000000411 /* ArchiveIO.swift in Sources */,
+				D15C00000000000000000421 /* ArchiveLibrary.swift in Sources */,
+				D15C00000000000000000431 /* ArchiveSession.swift in Sources */,
+				D15C00000000000000000441 /* ArchiveViews.swift in Sources */,
+				D15C00000000000000000451 /* PDFCompression.swift in Sources */,
+				D15C00000000000000000501 /* ProfessionalVideo.swift in Sources */,
+				D15C00000000000000000511 /* ProfessionalPurchase.swift in Sources */,
+				D15C00000000000000000541 /* SpacePlan.swift in Sources */,
+				D15C00000000000000000551 /* SpacePlanner.swift in Sources */,
+				D15C00000000000000000591 /* CompressionIntake.swift in Sources */,
+				D15C00000000000000000601 /* WorkspaceTasks.swift in Sources */,
+				D15C00000000000000000561 /* SpacePlanView.swift in Sources */,
+				D15C00000000000000000521 /* ProfessionalVideoViews.swift in Sources */,
+				D15C00000000000000000461 /* PDFViews.swift in Sources */,
+				D15C0000000000000000324 /* PhotoViews.swift in Sources */,
+				D15C00000000000000000394,
+				D15C0000000000000000393,
+				D15C0000000000000000392,
+				D15C0000000000000000391,
+				D15C0000000000000000390,
+				D15C0000000000000000371,
+				D15C0000000000000000370,
+				D15C0000000000000000323 /* MediaOrganizer.swift in Sources */,
+				D15C0000000000000000322 /* PhotoSession.swift in Sources */,
+				D15C0000000000000000321 /* PhotoCompression.swift in Sources */,
+				D15C0000000000000000320 /* MediaLibrary.swift in Sources */,
+				D15C0000000000000000025B /* VideoCatalog.swift in Sources */,
+				D15C000000000000000001FE /* QueueStore.swift in Sources */,
+				D15C000000000000000001FF /* Components.swift in Sources */,
+				D15C00000000000000000200 /* CompressionJobView.swift in Sources */,
+				D15C000000000000000000C8 /* DisquEZApp.swift in Sources */,
+				D15C000000000000000000C9 /* Storage.swift in Sources */,
+				D15C000000000000000000CA /* VideoCompression.swift in Sources */,
+				D15C000000000000000000CB /* PhotoLibrary.swift in Sources */,
+				D15C000000000000000000CC /* CompressionSession.swift in Sources */,
+				D15C000000000000000000CD /* HomeView.swift in Sources */,
+				D15C000000000000000000CE /* VideoPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15C0000000000000000012F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C00000000000000000471 /* SyntheticPDF.swift in Sources */,
+				D15C00000000000000000481 /* PDFTests.swift in Sources */,
+				D15C00000000000000000571 /* SpacePlanTests.swift in Sources */,
+				D15C00000000000000000581 /* ProfessionalVideoTests.swift in Sources */,
+				D15C00000000000000000491 /* ArchiveTests.swift in Sources */,
+				D15C0000000000000000351 /* PhotoTests.swift in Sources */,
+				D15C000000000000000003A1,
+				D15C0000000000000000350 /* SyntheticPhoto.swift in Sources */,
+				D15C0000000000000000025D /* VideoCatalogTests.swift in Sources */,
+				D15C00000000000000000259 /* QueueRecoveryTests.swift in Sources */,
+				D15C0000000000000000014A /* SyntheticVideo.swift in Sources */,
+				D15C0000000000000000014B /* VideoCompressionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15C00000000000000000193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C000000000000000001AE /* CompressionFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D15C00000000000000000133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15C00000000000000000005 /* DisquEZ */;
+			targetProxy = D15C00000000000000000134 /* PBXContainerItemProxy */;
+		};
+		D15C00000000000000000197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15C00000000000000000005 /* DisquEZ */;
+			targetProxy = D15C00000000000000000198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D15C0000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D15C0000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D15C0000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = DisquEZ;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 2987DV727W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DisquEZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.disquez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D15C0000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = DisquEZ;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 2987DV727W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DisquEZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.disquez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D15C00000000000000000131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.DisquEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisquEZ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisquEZ";
+			};
+			name = Debug;
+		};
+		D15C00000000000000000132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.DisquEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisquEZ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisquEZ";
+			};
+			name = Release;
+		};
+		D15C00000000000000000195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.DisquEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DisquEZ;
+			};
+			name = Debug;
+		};
+		D15C00000000000000000196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyuchen.DisquEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DisquEZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D15C0000000000000000000A /* Build configuration list for PBXProject "DisquEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15C0000000000000000000C /* Debug */,
+				D15C0000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15C0000000000000000000B /* Build configuration list for PBXNativeTarget "DisquEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15C0000000000000000000E /* Debug */,
+				D15C0000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15C00000000000000000130 /* Build configuration list for PBXNativeTarget "DisquEZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15C00000000000000000131 /* Debug */,
+				D15C00000000000000000132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15C00000000000000000194 /* Build configuration list for PBXNativeTarget "DisquEZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15C00000000000000000195 /* Debug */,
+				D15C00000000000000000196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D15C00000000000000000001 /* Project object */;
+}

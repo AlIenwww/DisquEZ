@@ -1,0 +1,28 @@
+{
+  "identifier" : "E34C0921-4077-4AA5-9045-6C839D982034",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "982034001",
+      "localizations" : [
+        { "description" : "解锁专业视频参数和自定义预设。", "displayName" : "专业视频买断（测试）", "locale" : "zh_CN" },
+        { "description" : "Unlock advanced video settings and custom presets.", "displayName" : "Professional Video (Test)", "locale" : "en_US" }
+      ],
+      "productID" : "com.wuyuchen.disquez.professional.video",
+      "referenceName" : "Professional Video Test Purchase",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_CN",
+    "_storefront" : "CHN",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}

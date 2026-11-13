@@ -1,0 +1,54 @@
+{
+  "fill": {
+    "solid": "extended-srgb:0.08627,0.09804,0.11373,1.00000"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "03-D-Fold.png",
+          "name": "Upper fold",
+          "glass": false
+        },
+        {
+          "image-name": "02-D-Body.png",
+          "name": "D body",
+          "glass": false
+        }
+      ],
+      "name": "Folded D",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.18
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.0
+      },
+      "lighting": "individual"
+    },
+    {
+      "layers": [
+        {
+          "image-name": "01-Graphite-Ribbon.svg",
+          "name": "Graphite ribbon",
+          "glass": false
+        }
+      ],
+      "name": "Graphite ribbon",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "iOS"
+    ]
+  }
+}
